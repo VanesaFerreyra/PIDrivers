@@ -1,0 +1,28 @@
+.Form_container {
+    display: flex;
+    max-width: 526px;
+    background-color: darkgray;
+    border-radius: 10px;
+    box-shadow: 0px 4px 22px 0px #0000001a;
+    padding: 50px;
+}
+.form_title {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--verde-mid-oscuro);
+}
+.form_title_violeta {
+    color: var(--violeta-oscuro);
+}
+.datos_obligatorios {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(236, 78, 78);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
